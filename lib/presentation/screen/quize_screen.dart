@@ -67,6 +67,7 @@ class _QuizScreenState extends State<QuizeScreen> {
   void restartQuiz() {
     userAnswers.clear();
     currentScreen = StartScreen(onPressed: switchScreen);
+    _loadTriviaData();
     setState(() {});
   }
 
