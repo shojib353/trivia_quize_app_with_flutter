@@ -1,0 +1,1 @@
+const String getUrl="https://opentdb.com/api.php?amount=10";
